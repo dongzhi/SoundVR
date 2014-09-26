@@ -217,7 +217,7 @@ Virtual Sound Fuctions
        wetGainNode.connect(context.destination);
        wetGainNode.gain.value = kInitialReverbLevel;
 
-       setReverbImpulseResponse('./sound/impulse-responses/spatialized5.wav');
+       setReverbImpulseResponse('/sound/impulse-responses/spatialized5.wav');
 
        context.listener.setPosition(0, 0, 0);
 
@@ -225,10 +225,10 @@ Virtual Sound Fuctions
        bufferLoader = new BufferLoader(
          context,
          [
-            './sound/storm.mp3',
-            './sound/water-stream.mp3',
-            './sound/garden.mp3',
-            './sound/fire.mp3',
+            '/sound/storm.mp3',
+            '/sound/water-stream.mp3',
+            '/sound/garden.mp3',
+            '/sound/fire.mp3',
          ],
          finishedLoading
        );
