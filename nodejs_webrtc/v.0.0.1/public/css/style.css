@@ -1,0 +1,195 @@
+@charset 'UTF-8';
+
+/* Pluto */
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoBlack.otf") format("opentype");
+font-weight: 900;
+font-style:normal;
+}
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoHeavy.otf") format("opentype");
+font-weight: 800;
+font-style:normal;
+}
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoBold.otf") format("opentype");
+font-weight: 700;
+font-style:normal;
+}
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoMedium.otf") format("opentype");
+font-weight: 500;
+font-style:normal;
+}
+
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoRegular.otf") format("opentype");
+font-weight: 400;
+font-style:normal;
+}
+
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoLight.otf") format("opentype");
+font-weight: 300;
+font-style:normal;
+}
+
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoExtraLight.otf") format("opentype");
+font-weight: 200;
+font-style:normal;
+}
+@font-face {
+font-family: Pluto;
+src: url("font/PlutoThin.otf") format("opentype");
+font-weight: 100;
+font-style:normal;
+}
+
+html, body, section, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+  margin:0;
+  padding:0;
+  border: 0;
+}
+
+body{
+  background: #fff;
+  font-family: 'Pluto', Helvetica, Arial,sans-serif;
+  color:#333;
+  font-size:16px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+h1{
+  font-weight:700;
+  font-size:2em;
+  text-align:center;
+  line-height:3em;
+}
+
+.wrapper{
+  width:80%;
+  margin:5% auto;
+}
+
+.viewbox{
+  position:relative;
+  overflow:hidden;
+  display:inline-block;
+}
+
+.viewbox canvas{
+  border:none;
+}
+
+.badge{
+  position:absolute;
+  top:1px;
+  left:1px;
+  display:inline-block;
+  background:#f1f1f1;
+  padding:0.3em;
+}
+
+/********************
+Dashboard
+********************/
+#status{
+  position:fixed;
+  right:1em;
+  top:1em;
+  padding:1em;
+  background:#f1f1f1;
+  opacity:1;
+}
+
+.main{
+  background:#95c098;
+  display:inline-block;
+  padding:1em;
+}
+
+.welcome{
+  font-size:2em;
+}
+/********************
+Login
+********************/
+.login{
+  background-color:#69d7ee;
+  display:inline-block;
+  overflow:hidden;
+}
+
+.login h1{
+  font-size:2.5em;
+  margin:3em 0 0;
+}
+
+.loginbox{
+   width:60%;
+   text-align:center;
+   margin:auto;
+}
+
+input[type=text], input[type=password], textarea {
+    border: 0;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: all .1s ease;
+    background:#f1f1f1;
+    vertical-align: middle;
+    -webkit-user-select:text;
+    -webkit-appearance:none;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    outline: none;
+    background:#fff;
+}
+
+
+.login button{
+  font-size:1.5em;
+  color:#333;
+  border:none;
+  padding:0.5em 1.5em;
+  background:#f9db00;
+  border-radius: 5px;
+  cursor:pointer;
+  margin:3em auto 0;
+  font-weight:700;
+}
+
+.login .progress{
+  text-align:center;
+}
+
+#iaudios{
+  display:none;
+  visibility: hidden;
+}
+
+
+#client_world{
+}
