@@ -225,10 +225,10 @@ Virtual Sound Fuctions
        bufferLoader = new BufferLoader(
          context,
          [
-            '../sound/storm.mp3',
-            '../sound/water-stream.mp3',
-            '../sound/garden.mp3',
-            '../sound/fire.mp3',
+            './sound/storm.mp3',
+            './sound/water-stream.mp3',
+            './sound/garden.mp3',
+            './sound/fire.mp3',
          ],
          finishedLoading
        );
