@@ -217,7 +217,7 @@ Virtual Sound Fuctions
        wetGainNode.connect(context.destination);
        wetGainNode.gain.value = kInitialReverbLevel;
 
-       setReverbImpulseResponse('./multi_panners/sound/impulse-responses/spatialized5.wav');
+       setReverbImpulseResponse('http://dongzhi.github.io/SoundVR/multi_panners/sound/impulse-responses/spatialized5.wav');
 
        context.listener.setPosition(0, 0, 0);
 
@@ -225,10 +225,10 @@ Virtual Sound Fuctions
        bufferLoader = new BufferLoader(
          context,
          [
-            '/multi_panners/sound/storm.mp3',
-            './multi_panners/sound/water-stream.mp3',
-            './multi_panners/sound/garden.mp3',
-            './multi_panners/sound/fire.mp3',
+            'http://dongzhi.github.io/SoundVR/multi_panners/sound/storm.mp3',
+            'http://dongzhi.github.io/SoundVR/multi_panners/sound/water-stream.mp3',
+            'http://dongzhi.github.io/SoundVR/multi_panners/sound/garden.mp3',
+            'http://dongzhi.github.io/SoundVR/multi_panners/sound/fire.mp3',
          ],
          finishedLoading
        );
